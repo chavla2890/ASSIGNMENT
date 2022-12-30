@@ -12,7 +12,7 @@ int main(){
 
      for(int i=0;i<=a;i++){
         for(int j=0;j<=a;j++){
-            if(i+j==b||j-i==b||i-j==b||j+i==c){
+            if(i+j==b||j-i==b||i-j==b||j+i==c ||  i==a || i==0 || j==a || j==0){
                 printf("*");
             }else{
                 printf(" ");
